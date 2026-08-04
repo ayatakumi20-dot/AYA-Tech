@@ -1,21 +1,16 @@
-AYA-Tech ネイビー版ホームページ
+AYA-Tech ネイビー版（作成アプリ一覧・制作実績追加版）
 
-【GitHubへアップロードするもの】
-index.html
-style.css
-app-ads.txt
-assets フォルダ
+アップロードするもの：
+- index.html
+- style.css
+- app-ads.txt
+- assets フォルダ
 
-ZIPファイルは解凍してから、中身をGitHubリポジトリへアップロードしてください。
-既存の index.html と style.css は上書きします。
-
-推奨公開先:
+GitHubの ayatakumi20-dot.github.io リポジトリに、同名ファイルを上書きアップロードしてください。
+公開URL：
 https://ayatakumi20-dot.github.io/
 
-AdMob確認先:
-https://ayatakumi20-dot.github.io/app-ads.txt
+現在リンク設定済み：
+- ゴミ出しリマインダー
 
-【今後の編集箇所】
-・まとめ買い献立のGoogle Play URL
-・とくぶー紹介記事が公開された後のリンク
-・新しいアプリカード、掲載カード
+献立まとめ買い、買い忘れチェック、し忘れチェックのGoogle Play URLが分かったら、各カードのリンクを追加できます。

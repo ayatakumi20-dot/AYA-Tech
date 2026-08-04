@@ -167,3 +167,40 @@ h2 { margin: 0; font-size: clamp(34px, 4.5vw, 56px); line-height: 1.2; letter-sp
   .contact-section { margin-left: 20px; margin-right: 20px; }
   .footer { padding-left: 20px; padding-right: 20px; flex-direction: column; align-items: flex-start; }
 }
+
+/* 制作実績 */
+.achievements-section {
+  background: linear-gradient(180deg, #08172a, #0a1b31);
+  border-top: 1px solid var(--line);
+}
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.achievement-card {
+  min-height: 250px;
+  padding: 32px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(16,40,68,.92), rgba(8,25,47,.92));
+  box-shadow: 0 16px 42px rgba(0,0,0,.18);
+}
+.achievement-card strong {
+  display: block;
+  color: var(--cyan);
+  font-size: clamp(32px, 4vw, 50px);
+  line-height: 1.1;
+  letter-spacing: -.04em;
+}
+.achievement-card h3 {
+  margin: 20px 0 8px;
+  font-size: 23px;
+}
+.achievement-card p { margin: 0; color: var(--muted); }
+.upcoming-app { grid-column: span 2; }
+
+@media (max-width: 900px) {
+  .achievement-grid { grid-template-columns: 1fr; }
+  .upcoming-app { grid-column: auto; }
+}
